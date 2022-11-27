@@ -1,0 +1,55 @@
+.footer {
+  background-color: black;
+  padding: 2em;
+  height: 2em;
+}
+
+.contact-info {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  float: left;
+}
+
+.order {
+  float: right;
+  margin-right: 5em;
+}
+
+input[type=text] {
+  display: inline-block;
+  width: 20em;
+  height: 2em;
+}
+
+.search-button {
+  border-radius: 5px;
+  height: 3em;
+  width: 5em;
+  border: 2px solid #CCCCCC;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.footer-item {
+  margin-left: 2em;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    height: 6em;
+  }
+
+  .contact-info {
+    float: none;
+    display: block;
+  }
+
+  .order {
+    float: none;
+    line-height: 2em;
+  }
+
+}

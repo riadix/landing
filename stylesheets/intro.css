@@ -1,0 +1,16 @@
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../data/underwater-apt.jpg");
+  background-size: cover;
+
+  color: #fff;
+  padding: 5em;
+  margin-top: 6.15em;
+}
+
+.intro-box {
+  padding: 1em;
+}
+
+.information {
+  text-shadow: 1px 1px 2px blue;
+}

@@ -1,0 +1,28 @@
+.photo-reviews {
+  margin: 2% 0;
+  padding: 0.5%;
+  width: 99%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.reviews {
+  float: left;
+  line-height: 2em;
+  padding: 1em;
+  width: 40%;
+}
+
+.photos {
+  float: left;
+  display: inline;
+  width: 50%;
+}
+
+.apt-image {
+  float: left;
+  display: inline-block;
+  width: 20em;
+  height: 20em;
+  margin-left: 2em;
+}
