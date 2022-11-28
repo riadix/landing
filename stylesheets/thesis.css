@@ -1,0 +1,32 @@
+.column-1-2 {
+  width: 50%;
+  float: left;
+}
+
+.thesis {
+  background-color: black;
+  padding: 3em 0 7em 0;
+  height: 10em;
+}
+
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thesis-item {
+  padding: 10px;
+}
+
+.text-lead {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.thesis-icon {
+  height: 10em;
+  width: 10em;
+  border-radius: 25px;
+}
