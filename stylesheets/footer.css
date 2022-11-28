@@ -1,7 +1,9 @@
-.footer {
+.contact {
   background-color: black;
-  padding: 2em;
-  height: 2em;
+  bottom: 0;
+  padding: 1em;
+  text-align: right;
+  height: 8em;
 }
 
 .contact-info {
@@ -9,37 +11,44 @@
   color: white;
   font-weight: bold;
   margin-left: 2em;
-  margin-top: 0.5em;
   float: left;
+  padding: 2em 0;
 }
 
 .order {
   float: right;
   margin-right: 5em;
+  padding: 2em 0;
+  display: inline;
 }
 
 input[type=text] {
   display: inline-block;
   width: 20em;
   height: 2em;
+  margin: 1em 1em 1em 0;
 }
 
-.search-button {
+.submit {
+  display: inline-block;
+  font-weight: 600;
   border-radius: 5px;
-  height: 3em;
-  width: 5em;
+
+  height: 2em;
+  width: 7em;
   border: 2px solid #CCCCCC;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  color: darkblue;
 }
 
 .footer-item {
-  margin-left: 2em;
-  padding-top: 0;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
   .footer {
-    height: 6em;
+    height: 20em;
   }
 
   .contact-info {
