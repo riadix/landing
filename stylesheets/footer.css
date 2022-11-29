@@ -1,9 +1,8 @@
-.contact {
+.footer {
   background-color: black;
-  bottom: 0;
   padding: 1em;
   text-align: right;
-  height: 8em;
+  margin: 0;
 }
 
 .contact-info {
@@ -16,29 +15,25 @@
 }
 
 .order {
-  float: right;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   margin-right: 5em;
   padding: 2em 0;
-  display: inline;
 }
 
 input[type=text] {
-  display: inline-block;
-  width: 20em;
   height: 2em;
   margin: 1em 1em 1em 0;
 }
 
 .submit {
-  display: inline-block;
   font-weight: 600;
   border-radius: 5px;
-
   height: 2em;
   width: 7em;
   border: 2px solid #CCCCCC;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
   color: darkblue;
 }
 
@@ -48,17 +43,21 @@ input[type=text] {
 
 @media screen and (max-width: 800px) {
   .footer {
-    height: 20em;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-info {
-    float: none;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .order {
-    float: none;
-    line-height: 2em;
+    display: flex;
+    flex-direction: column;
   }
 
+  input[type=text] {
+    width: 10em;
+  }
 }

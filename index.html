@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="stylesheets/text-style.css">
   <link rel="stylesheet" href="stylesheets/reviews.css">
 
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.4.2/parallax.min.js"></script>
+
   <title>Underwater apartment</title>
 </head>
 <body>
@@ -24,7 +27,7 @@
     <h1>Поживите под водой!</h1>
   </div>
 
-  <div class="intro center-text">
+  <div class="intro center-text" data-parallax="scroll" data-image-src="data/underwater-apt.jpg">
     <h2 class="intro-box">Сдаем квартиру под водой!</h2>
     <h4 class="information">
       Сдается великолепная квартира под водой.<br>
@@ -76,20 +79,18 @@
     </div>
   </div>
 
-  <div class="contact text-center">
+  <div class="footer text-center">
     <div class="container">
       <div class="column-1-2">
         <a class="contact-info" href="#">Позвонить нам</a>
         <a class="contact-info" href="#">Написать нам</a>
       </div>
       <div class="column-1-2">
-        <div class="order">
-          <form>
-            <label class="footer-item" for="email">Электронная почта</label>
-            <input type="text" id="email" name="Почта" value="" class="footer-item" required>
-            <input type="submit" value="Отправить" class="submit footer-item"/>
-          </form>
-        </div>
+        <form class="order">
+          <label class="footer-item" for="email">Электронная почта</label>
+          <input type="text" id="email" name="Почта" value="" class="footer-item" required>
+          <input type="submit" value="Отправить" class="submit footer-item"/>
+        </form>
       </div>
     </div>
   </div>

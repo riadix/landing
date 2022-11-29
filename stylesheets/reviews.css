@@ -1,6 +1,6 @@
 .reviews {
-  padding: 4em 2em 10em 2em;
-  margin-bottom: 5%;
+  padding: 4em 2em;
+  flex-grow: 1;
 }
 
 .column-1-3 {
